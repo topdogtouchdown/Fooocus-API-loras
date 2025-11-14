@@ -35,7 +35,7 @@ default_loras = [[True, "sd_xl_offset_example-lora_1.0.safetensors", 0.1]]
 default_cfg_scale = 7.0
 default_prompt_negative = ""
 default_aspect_ratio = "1152*896"
-default_sampler = "dpmpp_2m_sde_gpu"
+default_sampler = "euler_ancestral"
 default_scheduler = "karras"
 
 available_aspect_ratios = [
